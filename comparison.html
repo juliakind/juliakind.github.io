@@ -13,9 +13,8 @@
   </head>
   <body>
 
-    <!--starting landing page navbar-->
+    <!--starting navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      
         <a class="navbar-brand" id = "pageheader" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,50 +48,52 @@
             </ul>
         </div>
     </nav>
-   <!--end navibar-->
-
-      <!-- Creating the Landing page container-->
+   
+    <!-- Creating comparison page container-->
       <div class="container">
-          <section id="imageNav-area" class="row">
-            <div class="col-lg-6 col-md-12 col-md-6 grey">
+          <section class="row">
+            <div>
               <div class="description-content">
-                <h3 class="description-header text-center">Summary: Latitude vs. X</h3>
-                <img src="Resources/assets/images/Fig1.png" >
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-              </div>
+                <h3 class="description-header">Comparison: Latitude vs X</h3>
+          <p>Click any plot to get an in-depth analysis.</p>
+                <div class="container" style="padding-bottom: 40px;">
+            <div class="row">
+            <div class="col-lg-6" style="padding: 20px;">
+              <div class="imageNav-header">vs. Max Temperature</div>
+                      <a href="max_temp.html">
+                <img src="Resources/assets/images/Fig1.png">
+              </a>
             </div>
-
-            <div class="col-lg-5 col-md-12 col-md-6 grey">
-    ​
-            <section id="imageNav-area">
-                <div class="imageNav-content">
-                  <h3 class="imageNav-header text-center">Visualizations</h3>
-                  <div class="container">
-                  <div class="row">
-                  <div class="col-6">
-                      <a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" class="img-thumbnail"></a>
-                  </div>
-                  <div class="col-6">
-                      <a href="humidity.html"> <img src="Resources/assets/images/Fig2.png" class="img-thumbnail"></a></div>
-                  <div class="col-6">
-                      <a href="cloudiness.html"> <img src="Resources/assets/images/Fig3.png" class="img-thumbnail"></a>
-                  </div>
-                  <div class="col-6">
-                      <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class="img-thumbnail"></a>
-                  </div>
-                  </div>
-              </div>
+            <div class="col-lg-6" style="padding: 20px;">
+              <div class="imageNav-header">vs. Max Humidity</div>
+                      <a href="humidity.html">
+                <img src="Resources/assets/images/Fig2.png">
+                </a>
             </div>
-            </section>
+            <div class="col-lg-6" style="padding: 20px;">
+              <div class="imageNav-header">vs. Cloudiness</div>
+                      <a href="cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png">
+              </a>
+            </div>
+            <div class="col-lg-6" style="padding: 20px;">
+              <div class="imageNav-header">vs. Wind Speed</div>
+                      <a href="wind_speed.html">
+                <img src="Resources/assets/images/Fig4.png">
+              </a>
+            </div>
+                  </div>
+          </div>
+              </div>
+    
             </div>
           </section>
         </div>
 
 
-        <!--adding footer-->
+        <!--adding footer--> 
         <footer>
-          <div class="footer">&copy; Copyright YK</div>
+            <div class="footer">&copy; Copyright YK</div>
         </footer>
 
     <!-- Optional JavaScript -->

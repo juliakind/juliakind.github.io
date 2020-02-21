@@ -1,0 +1,65 @@
+
+
+html,
+body {
+  height: 100%;
+  background-color: #F0F8FF
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+.grey {
+  background-color: white;
+  margin-top: 2%;
+  margin-right: 1%;
+}
+
+.dropdown {
+  padding: 8px;
+}
+
+#navbarNavDropdown {
+  position: relative;
+
+}
+
+.dropdown-toggle {
+  color: black;
+  position:relative;
+}
+
+.navbarNavDropdown {
+  padding: auto;
+}
+
+
+.footer{
+	background-color:#e0ebeb; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    color: black; 
+    min-height: 50px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+
+
+
+/* Other Classes for Page Styling */
+
+
+
